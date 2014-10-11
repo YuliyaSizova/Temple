@@ -6,11 +6,18 @@
 
 package temple.objects;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
+
 /**
  *
  * @author Ламита
  */
+@XStreamAlias ("object")
+
+   
 public class DynamicObject {
+     @XStreamAsAttribute
      private int id;
     private String name;
 
