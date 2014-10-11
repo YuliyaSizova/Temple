@@ -1,0 +1,5 @@
+#Level parameters
+#Tue Oct 07 11:09:42 MSK 2014
+height=10
+layerNum=1
+width=10
